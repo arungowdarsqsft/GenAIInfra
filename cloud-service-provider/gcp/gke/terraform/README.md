@@ -39,7 +39,7 @@ In here, you will find four files used to provision a VPC, subnets and a GKE clu
 
 - versions.tf sets the Terraform version to at least 0.14.
 
-##Update your terraform.tfvars file
+## Update your terraform.tfvars file
 
 Replace the values in your terraform.tfvars file with your project_id and region. Terraform will use these values to target your project when provisioning your resources. Your terraform.tfvars file should look like the following.
 ```bash
